@@ -1,7 +1,7 @@
 cont = 0
 inicio = int (input("Número inicial:"))
-fiin = int (input("Número final:"))
-for n in range(inicio, final):
+fin = int (input("Número final:"))
+for n in range(inicio, fin):
     for d in range(1, n + 1):
       if n % d == 0:
         cont += 1
